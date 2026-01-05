@@ -1,0 +1,39 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+dist/
+build/
+coverage/
+
+# Vite
+frontend/dist/
+frontend/.vite/
+
+# Backend uploads (local dev artifacts)
+backend/uploads/
+backend/static/
+
+# Redis dumps
+dump.rdb
+
+# Misc
+*.tmp
+*.swp
